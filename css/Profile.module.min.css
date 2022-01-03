@@ -1,0 +1,68 @@
+:root {
+  --myBgColor: rgb(231, 236, 242);
+  --myMainFontColor: black;
+  --mySecondFontColor: rgb(166, 175, 186);
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+  height: auto;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  background-color: var(--myBgColor);
+}
+.description {
+  width: 250px;
+  height: auto;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  font-weight: 400;
+  text-align: center;
+}
+.avatar {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.text {
+  color: var(--mySecondFontColor);
+}
+.stats {
+  display: flex;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  width: 250px;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  background-color: #f3f6f9;
+  box-shadow: 3px 3px 5px 2px rgba(34, 60, 80, 0.1);
+}
+.stats__item {
+  display: flex;
+  flex-basis: calc(100% / 3);
+  flex-direction: column;
+  width: 80px;
+  padding: 20px;
+}
+.stats__item:not(:last-child) {
+  border-right: 1px solid #b3b5b7;
+}
+.quantity {
+  color: var(--myMainFontColor);
+  font-weight: 700;
+}
+/*# sourceMappingURL=Profile.module.min.css.map */
